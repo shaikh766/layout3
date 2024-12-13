@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.main {
+display: flex;
+flex-wrap: wrap;
+gap: 1vh;
+align-content: center;
+
+width: 95%;
+height: 100%;
+}
+.leftBoxPluse{
+flex: 2;
+min-width: 300px;
+display: flex;
+flex-direction: column;
+
+}
+.leftBoxPluse1 {
+
+min-width: 250px;
+background-image: url('http://wonderfulengineering.com/wp-content/uploads/2016/01/nature-wallpapers-8.jpg');
+background-size: cover;
+background-position: center;
+color: white;
+
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+height: 50%;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.leftBoxPluse2 {
+
+min-width: 250px;
+background-image: url('https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?cs=srgb&dl=daylight-forest-glossy-443446.jpg&fm=jpg');
+background-size: cover;
+background-position: center;
+color: white;
+margin-top:20px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+height: 50%;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.leftBoxPluse1:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.leftBoxPluse2:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.leftBox {
+flex: 1;
+min-width: 250px;
+background-image: url('https://tse3.mm.bing.net/th?id=OIP.4siKIW3oZ4kEo0vkEVQ5hgHaLH&pid=Api&P=0&h=220');
+background-size: cover;
+background-position: center;
+color: white;
+padding: 40px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+height: 80%;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.leftBox:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.rightBox {
+flex: 2;
+min-width: 300px;
+display: flex;
+flex-direction: column;
+gap: 1vh;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* 
+.fristBox {
+background-image: url('4.jpg');
+background-size: cover;
+background-position: center;
+color: white;
+padding: 40px;
+border-radius: 30px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+height: 35%;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+} */
+.fristBox h2{
+font-size: 3vh;
+margin-bottom:2vh;
+}
+.fristBox p{
+font-size: 2vh;
+
+}
+
+.secondBox {
+display: flex;
+gap: 1vh;
+}
+
+.second-2 {
+flex: 1;
+background-image: url('https://tse1.mm.bing.net/th?id=OIP.yLf7kQVaLpxqCZX1VRHw-wHaEK&pid=Api&P=0&h=220');
+background-size: cover;
+background-position: center;
+color: white;
+padding: 40px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+min-height: 30vh;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.second-1 {
+flex: 1;
+background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/06/Nature-Wallpaper.jpg');
+background-size: cover;
+background-position: center;
+color: white;
+padding: 40px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+min-height: 30vh;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.second-1:hover, .second-2:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+background-color: white;
+padding: 20px 30px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+.form-container h2 {
+margin-bottom: 30px;
+font-size: 2.5vh;
+color: #000;
+}
+
+form {
+display: flex;
+flex-direction: column;
+gap: 1vh;
+}
+
+.form-group {
+display: flex;
+gap:10vh;
+}
+label {
+font-size:1.5vh;
+}
+
+.form-group input {
+
+padding: 10px;
+width: 120%;
+font-size: 1.5vh; /* Consistent input font size */
+border: 1px solid #ccc; /* Light gray border */
+border-radius: 10px; /* Rounded corners */
+background-color: #f9f9f9; /* Subtle background color */
+transition: border-color 0.3s ease; /* Smooth border color change */
+}
+
+
+button {
+background-color: #f6921e;
+color: white;
+padding: 10px;
+font-size: 1.8vh;
+border: none;
+border-radius:10px;
+cursor: pointer;
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+margin-top: 10px;
+}
+
+button:hover {
+background-color: #e07c10;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media (max-width: 768px) {
+.form-group {
+    width: 90%; /* Adjust width on smaller screens */
+}
+
+button {
+    font-size: 16px; /* Slightly smaller text on mobile */
+}
+}
+
+
+@media (max-width: 768px) {
+.main {
+    flex-direction: column;
+    align-items: center;
+}
+
+.leftBox, .rightBox {
+    width: 100%;
+}
+
+.secondBox {
+    flex-direction: column;
+}
+
+.second-1, .second-2 {
+    width: 100%;
+}
+}
